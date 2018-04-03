@@ -5,7 +5,7 @@ export default {
 	input: 'src/index.html',
 	output: [
 		{ file: pkg.module, 'format': 'es' },
-		{ file: pkg.module, 'format': 'umd', name: 'SvelteComponent' }
+		{ file: pkg.main, 'format': 'umd', name: 'SvelteComponent' }
 	],
 	plugins: [
 		svelte({

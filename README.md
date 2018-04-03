@@ -1,5 +1,7 @@
 # component-template
 
+## Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)
+
 A base for building shareable Svelte components. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
 ```bash

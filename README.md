@@ -23,7 +23,6 @@ TODO
 ## Setting up
 
 * Run `npm init` (or `yarn init`)
-* Replace the default name in rollup.config.js (`SvelteComponent`) with the name of your component, so that people can use it as a standalone script
 * Replace this README with your own
 
 

@@ -1,4 +1,5 @@
 {
+  "name": "SvelteComponent",
   "svelte": "src/index.html",
   "module": "index.mjs",
   "main": "index.js",
@@ -7,11 +8,13 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "rollup": "^0.57.1",
-    "rollup-plugin-svelte": "^4.1.0",
-    "svelte": "^1.60.0"
+    "rollup": "^0.67.4",
+    "rollup-plugin-svelte": "^4.4.0",
+    "svelte": "^2.15.3"
   },
-  "keywords": ["svelte"],
+  "keywords": [
+    "svelte"
+  ],
   "files": [
     "src",
     "index.mjs",

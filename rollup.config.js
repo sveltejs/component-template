@@ -13,9 +13,6 @@ export default {
 		{ file: pkg.main, 'format': 'umd', name }
 	],
 	plugins: [
-		svelte({
-			cascade: false,
-			store: true
-		})
+		svelte()
 	]
 };

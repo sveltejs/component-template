@@ -1,6 +1,6 @@
 {
   "name": "SvelteComponent",
-  "svelte": "src/index.html",
+  "svelte": "src/index.svelte",
   "module": "index.mjs",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,10 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "rollup": "^0.67.4",
-    "rollup-plugin-svelte": "^4.4.0",
-    "svelte": "^2.15.3"
+    "rollup": "^1.7.4",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-svelte": "^5.0.3",
+    "svelte": "3.0.0-beta.22"
   },
   "keywords": [
     "svelte"

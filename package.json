@@ -1,8 +1,8 @@
 {
   "name": "SvelteComponent",
-  "svelte": "src/index.svelte",
-  "module": "index.mjs",
-  "main": "index.js",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
@@ -18,7 +18,6 @@
   ],
   "files": [
     "src",
-    "index.mjs",
-    "index.js"
+    "dist"
   ]
 }

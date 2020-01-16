@@ -1,0 +1,20 @@
+<!-- This file is just for testing purposes and is not necessary for the component to work! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Consuming custom elements</title>
+    <script type="module" src="./dist/index.mjs"></script>
+</head>
+<body>
+    <starter-component someattribute="test"></starter-component>
+</body>
+
+<script>
+    document.querySelector('starter-component').addEventListener('somethinghappened', (e) => {
+        alert(e);
+    });
+</script>
+</html>

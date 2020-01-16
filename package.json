@@ -1,5 +1,9 @@
 {
   "name": "SvelteComponent",
+  "version": "1.0.0",
+  "repository": "https://github.com/andifined-de/component-template.git",
+  "author": "Andreas Lemburg",
+  "license": "MIT",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -14,7 +18,8 @@
     "svelte": "^3.0.0"
   },
   "keywords": [
-    "svelte"
+    "svelte",
+    "custom elements"
   ],
   "files": [
     "src",

@@ -16,9 +16,13 @@ Your component's source code lives in `src/Component.svelte`.
 
 You can create a package that exports multiple components by adding them to the `src` directory and editing `src/index.js` to reexport them as named exports.
 
+### Testing
+```bash
+npm run test
+```
 TODO
 
-* [ ] some firm opinions about the best way to test components
+* [x] some firm opinions about the best way to test components
 * [ ] update `degit` so that it automates some of the setup work
 
 

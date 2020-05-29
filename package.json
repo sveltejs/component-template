@@ -5,19 +5,28 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "ava"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^6.0.0",
-    "rollup": "^1.20.0",
-    "rollup-plugin-svelte": "^5.0.0",
-    "svelte": "^3.0.0"
+    "@ava/babel": "^1.0.1",
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "ava": "^3.8.2",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "browser-env": "^3.3.0",
+    "raf": "^3.4.1",
+    "require-extension-hooks": "^0.3.3",
+    "require-extension-hooks-babel": "^1.0.0",
+    "rollup": "^2.11.2",
+    "rollup-plugin-svelte": "^5.2.2",
+    "svelte": "^3.23.0"
   },
   "keywords": [
     "svelte"
   ],
   "files": [
-    "src",
     "dist"
   ]
 }

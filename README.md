@@ -1,4 +1,4 @@
-*Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*
+_Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)_
 
 ---
 
@@ -12,21 +12,19 @@ cd my-new-component
 npm install # or yarn
 ```
 
-Your component's source code lives in `src/Component.svelte`.
+Your component's source code lives in `src/components/Component.svelte`.
 
-You can create a package that exports multiple components by adding them to the `src` directory and editing `src/index.js` to reexport them as named exports.
+You can create a package that exports multiple components by adding them to the `src` directory and editing `src/components/index.js` to reexport them as named exports.
 
 TODO
 
-* [ ] some firm opinions about the best way to test components
-* [ ] update `degit` so that it automates some of the setup work
-
+- [ ] some firm opinions about the best way to test components
+- [ ] update `degit` so that it automates some of the setup work
 
 ## Setting up
 
-* Run `npm init` (or `yarn init`)
-* Replace this README with your own
-
+- Run `npm init` (or `yarn init`)
+- Replace this README with your own
 
 ## Consuming components
 

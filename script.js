@@ -23,7 +23,7 @@ const runCommand = async () => {
       // process .svelte file
       if (file.includes(".svelte")) {
         // run autopreprocessor
-        await ParseSvelte(sourceFile, distFile);
+        await parseSvelte(sourceFile, distFile);
       }
       // copy other files
       else {
@@ -34,7 +34,7 @@ const runCommand = async () => {
   });
 };
 
-const ParseSvelte = async (source, destination) => {
+const parseSvelte = async (source, destination) => {
   await svelte
     .preprocess(source, autoprocessor(), {
       filename: path.basename(destination),

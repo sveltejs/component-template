@@ -4,7 +4,6 @@
   "module": "dist/index.mjs",
   "main": "dist/index.js",
   "scripts": {
-    "postinstall": "npm run build",
     "postbuild": "node script.js",
     "build": "rollup -c",
     "prepublishOnly": "npm run build"

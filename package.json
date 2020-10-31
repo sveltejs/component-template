@@ -4,14 +4,21 @@
   "module": "dist/index.mjs",
   "main": "dist/index.js",
   "scripts": {
+    "prebuild": "npm test",
     "build": "rollup -c",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "jest test --coverage"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
     "@rollup/plugin-node-resolve": "^9.0.0",
+    "@testing-library/svelte": "^3.0.0",
+    "jest": "^26.6.1",
     "rollup": "^2.0.0",
     "rollup-plugin-svelte": "^6.0.0",
-    "svelte": "^3.0.0"
+    "svelte": "^3.0.0",
+    "svelte-jester": "^1.1.5"
   },
   "keywords": [
     "svelte"

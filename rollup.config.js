@@ -13,6 +13,7 @@ export default {
 		{ file: pkg.module, 'format': 'es' },
 		{ file: pkg.main, 'format': 'umd', name }
 	],
+	external: ['svelte', 'svelte/internal'],
 	plugins: [
 		svelte(),
 		resolve()

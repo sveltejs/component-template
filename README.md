@@ -1,4 +1,6 @@
-*Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*
+*Psst — looking for a more complete solution? Check out [SvelteKit](kit.svelte.dev) and its [package command](https://kit.svelte.dev/docs#packaging) which gives you more built-in features like TypeScript transpilation, type definition generation and a built-in playground to test your library.*
+
+*Looking for an app template instead? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*
 
 ---
 
